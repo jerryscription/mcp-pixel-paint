@@ -1,6 +1,6 @@
 # MCP Pixel Paint
 
-A Model Context Protocol (MCP) server that allows LLMs to create pixel art through natural language commands.
+A Model Context Protocol (MCP) server that allows LLMs to create pixel art through natural language commands in Claude Code.
 
 ## Features
 
@@ -94,4 +94,4 @@ The server uses:
 
 ## License
 
-ISC
+MIT
