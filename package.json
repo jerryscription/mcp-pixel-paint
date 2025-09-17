@@ -1,0 +1,29 @@
+{
+  "name": "mcp-pixel-paint",
+  "version": "1.0.0",
+  "description": "a MCP allows LLM to draw pixel paint with plain text",
+  "main": "dist/server.js",
+  "bin": {
+    "mcp-pixel-paint": "dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "pixel-art", "painting", "canvas"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "canvas": "^3.2.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
